@@ -1,0 +1,201 @@
+
+
+
+
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+start editing from here
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/* end reset  */
+body{
+	
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;	
+	min-height: 300px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+h3 { color:#f68b23;}
+li { font-size:14px!important; font-weight:normal;  }
+.header {
+	padding-bottom: 0.2em;
+	}
+
+
+
+.logo {
+	padding: 5em 0 0.8em;
+	text-align: center;
+}
+.content {
+	text-align: center;
+	color: #ceeb10;
+	/* padding: 0.5em 0 1.5em; */
+}
+
+.content h1 {
+	font-size: 3em; text-transform:uppercase;
+	font-weight: 500;
+	color: yellow;
+	padding-bottom:20px;
+}
+
+.content a:link {
+	text-decoration: none;
+	color: #b7da6a;
+	}
+	/* padding: 0.5em 0 1.5em; */
+.content a:hover {
+		color:white;
+	}
+
+strong {
+    font-weight: 700;
+}  
+.copy-rights {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+	color: #f59505;
+}
+
+.copy-rights a {
+    color: #b7da6a;
+    text-decoration: none;
+}
+
+.copy-rights a:hover {
+    text-decoration: underline;
+} 
+
+strong {
+    font-weight: bold;
+    color: #cbd818; /* You can change this to any color you prefer */
+    font-size: 16px; /* Adjust the font size */
+    font-family: 'Arial', sans-serif; /* You can change the font family */
+}
+
+a strong {
+    color: #f0b88b; /* To change color when the <strong> is inside an <a> tag */
+    text-decoration: none; /* Removes underline from the link */
+}
+
+strong:hover {
+    color: #fbf6f4; /* Optional: Change color on hover */
+}
+
+
+
+
+
+
+
+@media (max-width: 1440px){
+	#counter {
+		width: 67%;
+		margin-left: 25%;
+	}
+}
+@media (max-width:1280px){
+	.content-form input[type="text"] {
+		width: 29%;
+	}
+	.content-form {
+		padding: 0em 0 0;
+	}
+}
+@media (max-width: 768px){
+	
+	.footer {
+		padding-top: 6em;
+	}
+	.content h1 {
+		font-size: 3em;
+	}
+	.countDays, .countHours, .countMinutes, .countSeconds {
+		width: 20.2%;
+		height: 52px;
+		margin:0;
+	}
+	.content h2 {
+		margin-top: 2em;
+	}
+	body {
+		min-height: 930px;
+	}
+}
+@media (max-width: 640px){
+	ul#countdown {
+		margin: 0em 0 0em;
+	}
+	ul.navigation li {
+		margin: 0 26px;
+	}
+	.logo {
+		padding: 2em 0 0.8em;
+	}
+	.content {
+		padding: 1.5em 0 0em;
+	}
+	.boxName {
+		font-size: 14px;
+	}
+}
+@media (max-width: 480px){
+	.content h1 {
+		font-size: 3.3em;
+	}
+	
+	
+	
+	.content h1 {
+		font-size: 2.6em;
+	}
+	
+	body {
+		min-height: 800px;
+	}
+}
+@media (max-width: 320px){
+	.logo img {
+		width: 300px;
+	}
+	.content h1 {
+		font-size: 2em;
+	}
+	
+	
+	.content {
+		padding-bottom: 0em;
+	}
+	
+	.content h2 {
+		font-size: 18px;
+		margin-top: 1.3em;
+	}
+	.copy-rights p {
+		font-size: 0.875em;
+	}
+	
+	
+/*--/responsive design--*/}
